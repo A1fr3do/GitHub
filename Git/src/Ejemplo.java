@@ -2,6 +2,8 @@
 
 /*
  * Este es el ejercicio de ejemplo
+ * 
+ * @author ALFREDO
  */
 
 public class Ejemplo {
@@ -31,7 +33,40 @@ public class Ejemplo {
 		return aux;
 	}
 	/*
-	 * Comentario de práctica
-	 * Subir a GitHub
-	 * */
+	 * Este metodo suma a + aux
+	 * 
+	 * @param a entero introducido por el usuario
+	 */
+	public int añadir(int a){
+		aux+=a;
+		return aux;
+	}
+	/*
+	 * Este metodo resta aux - a
+	 * 
+	 * @param a entero introducido por el usuario
+	 */
+	
+	public int reducir(int a){
+		aux-=a;
+		return aux;
+	}
+	/*
+	 * Este metodo muestra el contenido de aux
+	 */
+	
+	public int aux(){
+		return aux;
+	}
+	/*
+	 * Este metodo espera 2 segundos
+	 */
+	public void espera(){
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}		
+	}
 }
