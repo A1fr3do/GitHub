@@ -30,4 +30,7 @@ public class Ejemplo {
 		aux=a-b;
 		return aux;
 	}
+	/*
+	 * Comentario de práctica
+	 * */
 }
